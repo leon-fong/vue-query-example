@@ -7,7 +7,7 @@
     <a
       icon-btn i-carbon-logo-github
       rel="noreferrer"
-      href="https://github.com/leon-fong/tanstack-query-vue-example"
+      href="https://github.com/leon-fong/vue-query-example"
       target="_blank"
       title="GitHub"
     />
