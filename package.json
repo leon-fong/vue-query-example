@@ -1,5 +1,6 @@
 {
   "name": "tanstack-query-vue-example",
+  "type": "module",
   "private": true,
   "packageManager": "pnpm@7.28.0",
   "scripts": {
@@ -10,10 +11,12 @@
     "preview": "vite preview",
     "test": "vitest",
     "up": "taze major -I",
-    "postinstall": "npx simple-git-hooks"
+    "postinstall": "npx simple-git-hooks",
+    "vercel:dev": "npx vercel dev | vite"
   },
   "dependencies": {
     "@tanstack/vue-query": "^4.26.1",
+    "@vercel/node": "^2.9.12",
     "@vueuse/core": "^9.13.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"

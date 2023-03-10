@@ -1,15 +1,5 @@
 <template>
-  <nav text-xl mt-6 inline-flex gap-2>
-    <button icon-btn @click="toggleDark()">
-      <div dark:i-carbon-moon i-carbon-sun />
-    </button>
-
-    <a
-      icon-btn i-carbon-logo-github
-      rel="noreferrer"
-      href="https://github.com/leon-fong/vue-query-example"
-      target="_blank"
-      title="GitHub"
-    />
+  <nav text-sms opacity-65 my-3 inline-flex gap-2 text-center m-auto>
+    Made by Leon
   </nav>
 </template>
